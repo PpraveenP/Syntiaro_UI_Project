@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.ExternalReportManager"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/eclipse-workspace/Syntiaro_UI_Project">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+<!--            <class name="Test_Cases.AboutUs_Tc.We_AreHere">-->
+<!--                <methods>-->
+<!--                    <include name="validating_About_Us_Link"/>-->
+<!--                    <include name="validating_We_Are_Here_Link"/>-->
+<!--                    <include name="validating_RestaurantPOS_Link"/>-->
+<!--                    <include name="validating_Travel_Agency_Link"/>-->
+<!--                    <include name="validating_CRM_Link"/>-->
+<!--                    <include name="validting_ERP_Software_link"/>-->
+<!--                    <include name="validating_Vision_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Careers_TC.Careers">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Careers_Link"/>-->
+<!--                    <include name="validating_Post_Resume_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Contact_TC.Contact">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Contact_Link"/>-->
+<!--                    <include name="validating_Quick_Enquiry_Form"/>-->
+<!--                    <include name="validating_Google_Map_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.Click_Here_EnquireForm">-->
+<!--                <methods>-->
+<!--                    <include name="validating_click_here_Enquire_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.Email">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Email_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.HomePage_Footer_bar_Links">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Home_Page_Link"/>-->
+<!--                    <include name="validating_About_US_Page_Link"/>-->
+<!--                    <include name="validating_Products_Page_Link"/>-->
+<!--                    <include name="validating_Services_Page_link"/>-->
+<!--                    <include name="validating_Landing_Page_Link"/>-->
+<!--                    <include name="validating_Client_Page_Link"/>-->
+<!--                    <include name="validating_Contact_US_Page_link"/>-->
+<!--                    <include name="validating_Restaurant_ManagementSoftware_Page_Link"/>-->
+<!--                    <include name="validating_Travel_Agency_Software_Page_Link"/>-->
+<!--                    <include name="validating_CRM_Software_Page_Link"/>-->
+<!--                    <include name="validating_IT_CRM_Page_Link"/>-->
+<!--                    <include name="validating_Infrastructur_ERP_Page_Link"/>-->
+<!--                    <include name="validating_Real_Estate_ERP_Page_Link"/>-->
+<!--                    <include name="validating_WebDevelopment_Page_Link"/>-->
+<!--                    <include name="validating_Advisory_Sevices_Page_Link"/>-->
+<!--                    <include name="validating_GST_Services_Page_Link"/>-->
+<!--                    <include name="validating_Digital_Marketing_Page_Link"/>-->
+<!--                    <include name="validating_Testimonials_Page_Link"/>-->
+<!--                    <include name="validating_Careers_Page_Link"/>-->
+<!--                    <include name="validating_FAQ_Page_Link"/>-->
+<!--                    <include name="validating_Sitemap_Page_Link"/>-->
+<!--                    <include name="validating_Privacy_Policy_Page_Link"/>-->
+<!--                    <include name="validating_Terms_Condition_Page_Link"/>-->
+<!--                    <include name="validating_Cancellation_Refund_Policy_Page_Link"/>-->
+<!--                    <include name="validating_Ubs_Billing_Invoicing_Page_Link"/>-->
+<!--                    <include name="validating_Binary_Kart_Page_Link"/>-->
+<!--                    <include name="validating_Phone_Number_Link"/>-->
+<!--                    <include name="validating_Gmail_Page_Link"/>-->
+<!--                    <include name="validating_Office_Location_Link"/>-->
+<!--                    <include name="validating_LinkedIn_Link"/>-->
+<!--                    <include name="validating_Instagram_Link"/>-->
+<!--                    <include name="validating_Facebook_Page_Link"/>-->
+<!--                    <include name="validating_Twitter_page_Link"/>-->
+<!--                    <include name="validating_YouTube_Page_Link"/>-->
+<!--                    <include name="validating_GmailB_Page_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.Industries_To_Grow_yourBusiness">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Restaurant_Management_POS_Software_Link"/>-->
+<!--                    <include name="validating_RetailShop_Management_POS_Link"/>-->
+<!--                    <include name="validating_BasicCRM_Software_Development_Link"/>-->
+<!--                    <include name="validating_Shool_CRM_Software_Link"/>-->
+<!--                    <include name="validatingTour_Travel_Operator_Software_Link"/>-->
+<!--                    <include name="validatingERP_Software_Development_Link"/>-->
+<!--                    <include name="validating_WebDising_Development_Link"/>-->
+<!--                    <include name="validating_Digital_Markenting_Link"/>-->
+<!--                    <include name="validating_Know_More_Button"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.Our_RangeProducts">-->
+<!--                <methods>-->
+<!--                    <include name="validatingRestaurantManagemt"/>-->
+<!--                    <include name="validatingTravelmanagement"/>-->
+<!--                    <include name="validatingSchoolCRM"/>-->
+<!--                    <include name="validatingConstruction"/>-->
+<!--                    <include name="validatingHealthCare"/>-->
+<!--                    <include name="validatingAgriculture"/>-->
+<!--                    <include name="validatingBanking"/>-->
+<!--                    <include name="validatingRealEstate"/>-->
+<!--                    <include name="validatingERPsoftwareDevelopment"/>-->
+<!--                    <include name="validatingLeadManagement"/>-->
+<!--                    <include name="validatingmanufacturing"/>-->
+<!--                    <include name="validatingWebDevelopment"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Home_Page_TC.Request_For_DemoForm">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Request_for_demo_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Innovation_TC.Innovation">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Innovation_Link"/>-->
+<!--                    <include name="validating_SHARE_YOUR_INNOVATIVE_IDEAS_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Test_Cases.Products_TC.Products_Page">
+                <methods>
+<!--                    <include name="validating_Products_Page_Link"/>-->
+<!--                    <include name="validating_Restaurant_Mangemet_POS_Link"/>-->
+<!--                    <include name="validating_Travel_CRM_Link"/>-->
+                    <include name="validating_Accounting_Software_Link"/>
+                    <include name="validating_TourTravel_Operator_Software_Link"/>
+<!--                    <include name="validating_Basic_CRM_Link"/>-->
+<!--                    <include name="validating_ITCRM_Link"/>-->
+<!--                    <include name="validating_B2BCRM_solution_Link"/>-->
+<!--                    <include name="validating_LeadManagent_Link"/>-->
+<!--                    <include name="validating_BasicHRM_Link"/>-->
+<!--                    <include name="validating_Human_Capital_Link"/>-->
+<!--                    <include name="validating_Infrastructure_Link"/>-->
+<!--                    <include name="validating_Manufacturing_ERP_Link"/>-->
+<!--                    <include name="validating_RealEstate_ERP_Link"/>-->
+<!--                    <include name="validating_Constructin_ERP_Link"/>-->
+<!--                    <include name="validating_Civil_Site_ERP_Link"/>-->
+<!--                    <include name="validating_Bench_Sales_Support_Link"/>-->
+<!--                    <include name="validating_Salesforce_Development_Link"/>-->
+<!--                    <include name="validating_Web_development_Link"/>-->
+<!--                    <include name="validating_Digital_marketing_Link"/>-->
+<!--                    <include name="validating_FMGC_Link"/>-->
+<!--                    <include name="validating_MSME_Link"/>-->
+                </methods>
+            </class>
+<!--            <class name="Test_Cases.Resources_TC.Resources">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Rosources_Link"/>-->
+<!--                    <include name="validating_Our_Services_Link"/>-->
+<!--                    <include name="validating_Our_Clients_Link"/>-->
+<!--                    <include name="validating_Our_Studies_Link"/>-->
+<!--                    <include name="validating_Testimonials_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test_Cases.Staff_AUG_TC.Staff_Aug">-->
+<!--                <methods>-->
+<!--                    <include name="validating_StaffAug_link"/>-->
+<!--                    <include name="validating_technology_And_Developmet_Link"/>-->
+<!--                    <include name="validating_Finance_And_Banking_Link"/>-->
+<!--                    <include name="validating_HealthCare_Link"/>-->
+<!--                    <include name="validating_Manufacturing_And_Supply_Chain_Link"/>-->
+<!--                    <include name="validating_Gov_And_Public_Sector_Link"/>-->
+<!--                    <include name="validating_Services_Link"/>-->
+<!--                    <include name="validating_Remote_Staffing_Link"/>-->
+<!--                    <include name="validating_Business_OutSourcing_Link"/>-->
+<!--                    <include name="validating_Business_Consulting_Link"/>-->
+<!--                    <include name="validating_Digital_Marketing_Link"/>-->
+<!--                    <include name="validating_ContactUs_Link"/>-->
+<!--                    <include name="validating_Resources_Link"/>-->
+<!--                    <include name="validating_Blogs_Link"/>-->
+<!--                    <include name="validating_SubmitReview_Link"/>-->
+<!--                    <include name="validating_Indusries_Link"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
